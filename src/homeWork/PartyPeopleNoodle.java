@@ -1,6 +1,13 @@
 package homeWork;
 
 public class PartyPeopleNoodle extends PartyNoodle {
+	
+	private String NoodleSize;
+	
+	public String getNoodleSize() {
+		return NoodleSize;
+	}
+
 	// 쌀쌀 국수
 	@Override
 	public void boiledNoodle(String boiledTime) {
@@ -35,10 +42,15 @@ public class PartyPeopleNoodle extends PartyNoodle {
 	@Override
 	public void selectNoodleamount(int selectNoodleamountNumber) {
 		if (selectNoodleamountNumber == 1) {
-			System.out.println("보통 사이즈");
+			this.NoodleSize = ("보통 사이즈");
+			//System.out.println("보통 사이즈");
 		} else {
-			System.out.println("곱빼기 사이즈");
+			this.NoodleSize = ("곱빼기 사이즈");
+			//System.out.println("곱빼기 사이즈");
 		}
 
 	}
 }
+
+
+
