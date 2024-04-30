@@ -35,9 +35,9 @@ public class PartyPeopleNoodle extends PartyNoodle {
 	@Override
 	public void selectNoodleamount(int selectNoodleamountNumber) {
 		if (selectNoodleamountNumber == 1) {
-			System.out.println("보통 사이즈로 할게요");
+			System.out.println("보통 사이즈");
 		} else {
-			System.out.println("곱빼기 사이즈로 할게요");
+			System.out.println("곱빼기 사이즈");
 		}
 
 	}
