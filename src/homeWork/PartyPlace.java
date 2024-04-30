@@ -1,6 +1,7 @@
 package homeWork;
 
 import util.RandomSelectNumber;
+import homeWork.PartyPeopleNoodle;
 
 public class PartyPlace {
 
@@ -42,8 +43,7 @@ public class PartyPlace {
 			// RandomSelectNumber, 메서드 명 : selectInt
 			int selectedNumberofMember = RandomSelectNumber.selectInt(5);
 			// 시식자 선정 완료. 
-			System.out.println ("시식하는 사람은 : " + eatMembers[selectedNumberofMember] + " 당첨.ㅋㅋㅋ");
-			
+			System.out.println (jo3.getNoodleSize() + " 주문하신 " + eatMembers[selectedNumberofMember] + " 고객님 국수 나왔습니다.");
 		}
 
 
